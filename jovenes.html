@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clases para Niños</title>
+  <link rel="website icon" type="png/jpg" href="img/logos (3).png"> 
+
+
+
+  <!-- Vincula el CSS de Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Estilos adicionales si los necesitas -->
+  <style>
+    .seccion-clases {
+      background-color: #f8f9fa; /* Fondo gris claro para la sección */
+      padding: 50px 0; /* Espacio alrededor de la sección */
+    }
+    .card-img-top {
+      height: 200px; /* Tamaño fijo para las imágenes */
+      object-fit: cover; /* Mantiene la proporción de la imagen sin distorsionar */
+    }
+    .descripcion-clases {
+      color: #555; /* Color de texto más suave para la descripción */
+    }
+  </style>
+</head>
+<body>
+
+
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-blue bg-primary-subtle">
+        <a href=""><img src="img/logos (3).png" width="130px" height="130px"></a>
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <a class="navbar-brand" href="somos.html">¿Quiénes somos?</a>
+            <a class="navbar-brand" href="servicio.html">Servicio</a>
+            <a class="navbar-brand" href="contacto.html">Contacto</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <button class="btn btn-pink dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    Cursos
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="niños.html">Niños</a></li>
+                    <li><a class="dropdown-item" href="jovenes.html">Jóvenes</a></li>
+                    <li><a class="dropdown-item" href="adultos.html">Adultos</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav><br><br>
+        
+
+  <!-- Sección de Clases para Niños -->
+  <div class="seccion-clases">
+    <div class="container">
+      <h2 class="text-center mb-4">Clases para Jóvenes</h2>
+      <p class="text-center descripcion-clases mb-5">Ofrecemos clases interactivas y educativas diseñadas especialmente para jóvenes. ¡Aprenden mientras se divierten!</p>
+
+      <!-- Fila de Clases -->
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        
+        <!-- Card 1: Clases de Matemáticas -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/jovenes.png" class="card-img-top" alt="Clases de Matemáticas">
+            <div class="card-body">
+              <h5 class="card-title">Clases de Francés</h5>
+              <p class="card-text descripcion-clases">Ayudamos a los jóvenes a desarrollar habilidades en el idioma Francés mediante técnicas y actividades interactivas que estimulan su creatividad.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Clases de Inglés -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/jovenes seccion 2.jpg" class="card-img-top" alt="Clases de Inglés">
+            <div class="card-body">
+              <h5 class="card-title">Clases de Inglés</h5>
+              <p class="card-text descripcion-clases">Clases divertidas y dinámicas para que los jóvenes aprendan inglés con dinámicas de palabras, canciones y actividades interactivas. El inglés es el idioma global por excelencia.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Clases de Arte -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="img/jovenes seccion 3.jpg" class="card-img-top" alt="Clases de Arte">
+            <div class="card-body">
+              <h5 class="card-title">Métodos de aprendizaje</h5>
+              <p class="card-text descripcion-clases">Fomentamos la el conocimiento de otros idiomas de los jóvenes a través de la asertijos, coversaciones y otras actividades que les permiten expresarse.</p>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- Fin de la fila de clases -->
+
+    </div>
+  </div><br><br><br>
+
+
+
+
+  
+
+  <style>
+    /* Fondo y estilos adicionales */
+    .requisitos-seccion {
+      background-color: #f0f8ff; /* Fondo azul claro */
+      padding: 50px 0; /* Espaciado alrededor de la sección */
+      border-radius: 15px; /* Bordes redondeados */
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    }
+    .requisitos-seccion h2 {
+      font-size: 2.5rem; /* Tamaño de fuente grande para el título */
+      font-weight: bold;
+      color: #2c3e50; /* Color oscuro para el texto */
+    }
+    .requisitos-seccion p {
+      font-size: 1.2rem;
+      color: #34495e;
+      text-align: justify; /* Justificar el texto */
+    }
+    .btn-cta {
+      background-color: #3498db;
+      color: white;
+      font-size: 1.2rem;
+      padding: 10px 30px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    .btn-cta:hover {
+      background-color: #2980b9;
+    }
+    .img-fluid {
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sección de Requisitos para Clases de Idiomas -->
+  <div class="container">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-lg-8 col-md-10 col-sm-12">
+        <div class="requisitos-seccion text-center">
+          <h2>Requisitos para que los Jóvenes Aprendan Idiomas</h2>
+          <p class="mt-4">En nuestra academia, ofrecemos clases de idiomas especialmente diseñadas para niños entre 8 y 12 años. Aquí están los requisitos para que puedan unirse a nuestras clases:</p>
+
+          <ul class="list-unstyled mt-4">
+            <li><i class="bi bi-check-circle-fill"></i> Edad: Entre 13 y 19 años.</li>
+            <li><i class="bi bi-check-circle-fill"></i> Clases disponibles durante toda la semana: de lunes a domingo.</li>
+            <li><i class="bi bi-check-circle-fill"></i> Idiomas disponibles: Inglés, Ruso, Mandarín, Francés, Italiano.</li>
+            <li><i class="bi bi-check-circle-fill"></i> Disponibles clases virtuales y presenciales</li>
+          </ul>
+
+          <p class="mt-4">Nuestro objetivo es proporcionar una educación de calidad y divertida que permita a los jóvenes aprender nuevos idiomas de manera eficaz, mientras disfrutan y desarrollan habilidades interculturales. ¡Nunca es demasiado temprano para comenzar a aprender un nuevo idioma!</p>
+
+          <!-- Sección de Imagen -->
+          <div class="row justify-content-center mt-5">
+            <div class="col-md-8">
+              <img src="img/feliz niña.png" class="img-fluid" alt="Niños aprendiendo idiomas">
+            </div>
+          </div>
+
+          <!-- Botón de llamada a la acción -->
+          <a href="contacto.html" class="btn-cta mt-4">¡Inscríbete ahora y empieza a aprender!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vincula Bootstrap JS y B
+
+
+
+  <!-- Vincula los archivos JS de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

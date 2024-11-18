@@ -1,0 +1,10 @@
+body {
+    background: #007bff;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+  }
+  
+  .bg-image {
+    background-image: url('../img/lugar.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
